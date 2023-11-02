@@ -1,0 +1,368 @@
+
+.rakib{  
+    height:1000px;
+    background-image: url('bg-2.webp');
+    background-position: center;
+    background-size:cover;
+    min-width: 300px;
+}
+.container{
+    margin-left: 50px;
+line-height: 10px;
+max-width: 100%;
+}
+
+.header-text{
+    max-width: 350px;
+    margin-left: 5px;
+}
+h2{
+    font-size:35px;
+    line-height: 30px;
+
+}
+p{
+    font-size: 20px;
+    margin-top:5px ;
+    line-height:18px ;
+
+}
+.square{
+    width: 12px;
+    height: 12px;
+    background: rgb(223, 66, 66);
+    margin-left: 5px ;
+    display: inline-block;
+}
+.common-button{
+    margin-left:10 px 0;
+    font-size: 25px;
+    padding: 10px;
+    color: rgb(248, 239, 239);
+    background: rgb(17, 17, 18);
+    border:rgb(224, 180, 22) solid 5px;
+    font-weight: bold;
+}
+
+.line-1{
+   
+    width: 12px;
+    height: 15px;
+    display: block;
+    background: rgb(206, 56, 56);
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.line-2{
+    width: 80px;
+    height: 1px;
+    display: block;
+    background: rgb(160, 16, 16);
+    margin-top: 10px;
+}
+
+.line-3{
+    width: 60px;
+    height: 1px;
+    display: block;
+    background: rgb(196, 47, 47);
+    margin-top: 10px;
+}
+
+ 
+
+
+
+/*nebication bar*/
+ul li{
+    list-style-type: none;
+    margin: 20px;
+
+}
+ul li a{
+    text-decoration: none;
+    font-size: 25px;
+    color: rgb(5, 5, 5);
+    padding: 10px;
+    background: white;
+    display: block;
+    text-transform: capitalize;
+   
+}
+
+.menu-bar {
+    position: fixed;
+    right: 1rem;
+    top: 2rem;
+    
+}
+.menu-bar img{
+    width: 56px;
+height: 60px;
+
+}
+
+.nev{
+    width: 250px;
+    height: 100vh;
+    position: fixed;
+    right:0;
+    top: 0;
+    display:none;
+    background: wheat;
+
+}
+.menu-bar:hover .nev{
+    display: block;
+   
+}
+
+body{
+    background: white;
+}
+
+
+
+
+ /*About*/
+ .about{
+margin-top:150px ;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    padding:auto ;
+    max-width: 100%;
+    justify-content: space-around;
+ }
+.left-side {
+    flex-basis: 50%;
+
+}
+.left-side img{
+    width:100% ;
+}
+.right-side{
+    flex-basis: 50%;
+    text-align: right;
+    max-width: 500px
+}
+.line-about{
+    float: right;
+
+}
+h1{
+    font-size: 36px;
+    font-weight: bold;
+    margin-top:20px;
+   
+}
+h3{
+    font-weight: normal;
+    font-style: italic;
+    margin-top: -12px;
+}
+
+
+
+/*future*/
+
+.container-2{
+    margin-top: 150px;
+    max-width: 100%;
+padding: auto;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content:space-around;
+   
+}
+
+.future{
+    flex-basis:25% ;
+    align-items: center;
+}
+.future img{
+    width: 150px;
+}
+.container-3{
+   width: 50%;
+    display: flex;
+   align-items: center;
+   flex-wrap: wrap;
+ margin-left: 40%;
+ margin-top: 50px;
+
+
+}
+.common-button-2{
+
+    border:5px rgba(222, 51, 12, 0.212) solid ;
+    color: black;
+    font-size: 20px;
+    font-weight: 400px;
+ padding: 10px;
+ margin: 10px;
+
+}
+
+
+
+
+/*future-2*/
+.container-4{
+
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 100%;
+    align-items: center;
+    margin-top: 150px;
+    justify-content: space-around;
+    padding: auto;
+
+}
+.left-side2{
+    flex-basis:50% ;
+    max-width: 500px;
+   
+}
+.right-side2{
+    min-width: 200px;
+    flex-basis: 50%;
+    
+}
+..right-side2 img{
+    width: 100%;
+}
+.common-button-3{
+   
+    border:5px rgb(17, 17, 17) solid ;
+    font-size: 20px;
+    font-weight: bold;
+    color: rgb(238, 60, 5);
+}
+
+
+
+
+/*future-3*/
+.container-5{
+    display: flex;
+    flex-wrap: wrap;
+   max-width: 100%;
+    align-items: center;
+    margin-top: 150px;
+    padding:auto;
+    justify-content: space-around;
+
+
+}
+
+.left-side5{
+   flex-basis:40%;
+}
+.left-side5 img{
+    width: 100%;
+   
+   
+}
+.right-side5{
+    flex-basis:60%;
+text-align: right;
+  max-width: 500px;
+    
+}
+
+
+
+
+/*furute-4*/
+.container-6{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 100%;
+    align-items: center;
+    margin-top: 150px;
+    padding: 100px;
+    justify-content: space-around;
+}
+.left-side6{
+    flex-basis: 50%;
+    width: 150px;
+   
+}
+form{
+    max-width: 250px;
+  
+}
+form input{
+    margin-top: 10px;
+    min-width: 250px;
+    padding: 15px 10px;
+    border:4px rgb(209, 172, 22) solid ;
+    background: black;
+    color: rgb(244, 242, 242);
+}
+.button-bnt{
+    display: flex;
+    width:300px;
+    justify-content: space-around;
+
+}
+.common-button-3rd{
+ margin:20px ;
+    padding: 18px 0;
+    border: 5px rgb(24, 24, 24) solid;
+    color: rgb(15, 14, 14);
+    flex-basis: 50%;
+    background: rgb(201, 222, 236);
+font-weight: bold;
+}
+.right-side6{
+    flex-basis: 50%;
+    min-width: 300px;
+   
+}
+.right-side6 img{
+    width: 100%;
+}
+
+
+.container-7{
+    max-width: 100%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-right: 150px;
+    opacity: 0.5;
+margin:30px 0;
+background: black;
+}
+.container-7>div {
+   margin: 50px;
+   padding: 20px;
+   color: aliceblue;
+   max-width: 100%;
+
+}
+.logo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    max-width: 350px;
+}
+.logo image{
+    width: 100%;
+    padding: 5px;
+ 
+}
+.common-buttons{
+    margin-left: 35px;
+    padding: 5px 15px;
+    font-size:30px ;
+    color: black;
+    border:3px rgb(209, 172, 22) solid;
+    font-weight: bold;
+    background: bisque;
+}
